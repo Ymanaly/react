@@ -10,7 +10,8 @@ function App() {
     <div className="App">
       <div className='wrapper'>
         {
-          color ? <button className='blue' onClick={() => setColor(!color)}>A</button> :  <button className='green' onClick={() => setColor(!color)}>B</button>
+          color ? <button className='blue' onClick={() => setColor(!color)}>синий</button> : 
+           <button className='green' onClick={() => setColor(!color)}>зеленый</button>
         }
       </div>
     </div>
